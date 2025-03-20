@@ -1,0 +1,13 @@
+train: C:\Users\prasa\Desktop\project1\train\images
+val: C:\Users\prasa\Desktop\project1\valid\images
+test: C:\Users\prasa\Desktop\project1\test\images
+
+nc: 4
+names: ['Cavity', 'Fillings', 'Restorations', 'Implant']
+
+roboflow:
+  workspace: orthodontic
+  project: orthodontic-noybl
+  version: 7
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/orthodontic/orthodontic-noybl/dataset/7
